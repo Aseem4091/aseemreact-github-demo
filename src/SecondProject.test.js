@@ -11,7 +11,7 @@ describe('SecondProject Component', () => {
     const secondLine = screen.getByText(/i am doing devops assignment/i);
     const thirdLine = screen.getByText(/i am adding the third line for workflow/i);
 
-    expect(firstLine).toBeInTheDocument();
+    expect(firstLine).toBenotInTheDocument()
     expect(secondLine).toBeInTheDocument();
     expect(thirdLine).toBeInTheDocument();
   });
