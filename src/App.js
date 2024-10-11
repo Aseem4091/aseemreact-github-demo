@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import SecondProject from './SecondProject';
 function App() {
